@@ -1,0 +1,107 @@
+*{
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+a{
+  color: #204fe6;
+}
+.aDiv12{
+  margin-top: 10px;
+  height: 36px;
+  background-color: #fafafa;
+}
+.aDiv12 p{
+  float: left;
+  margin: 7px;
+}
+.aDiv12 li{
+  display: inline-block;
+  list-style: none;
+  float: right;
+  margin: 7px;
+}
+.aDiv13 h3{
+  font-size: 27px;
+  text-align: center;
+  margin-top: 11px;
+}
+.aDiv14{
+  width: 30%;
+  margin: 30px auto;
+}
+.aDiv141{
+  text-indent: 2em;
+}
+.aDiv142{
+  text-indent: 2em;
+  margin-top: 15px;
+}
+.aDiv143{
+  margin-top: 10px;
+  text-indent: 2em;
+}
+.inp{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  outline: none;
+  text-indent: 5px;
+  width: 70%;
+}
+.aDiv144{
+  margin-top: 18px;
+}
+.aDiv145{
+  text-indent: 2em;
+  margin-top: 18px;
+}
+.aDiv15{
+  margin-top: 45px;
+  text-align: center;
+}
+.aDiv15 input{
+  width: 40%;
+  font-size: 16px;
+  background-color: #4175dd;
+  border: none;
+  border-radius: 5px;
+  height: 39px;
+  color: white;
+}
+.aDiv15 input:hover{
+  background-color: #497fec;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .inp{
+    width: 162px;
+  }
+}
+label{
+  font-weight: normal;
+}
+
+
+
+.container{
+  /*width: 80%;*/
+}
+.container2{
+}
+.footer {
+  background: url(../images/footer.gif) repeat-x;
+}
+.footer_div {
+  height: 100px;
+  text-align: center;
+  padding-top: 23px;
+  color: #2B2B2B;
+  line-height: 22px;
+  background: url(../images/footer1.png) no-repeat;
+}
+
+.pa font{
+  font-size: 14px;
+}
+.pa span{
+  font-size: 14px;
+}

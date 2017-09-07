@@ -1,0 +1,105 @@
+*{
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+a{
+  color: #204fe6;
+}
+
+.aDiv13{
+  margin-top: 50px;
+}
+.aDiv13 h3{
+  font-size: 27px;
+  text-align: center;
+}
+
+.myDiv{
+  margin-top: 50px;
+}
+
+.aDiv14{
+  margin-top: 45px;
+}
+.aDiv14 p{
+  text-align: center;
+  width: 26%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #f7eacb;
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+.aDiv15{
+  width: 30%;
+  margin: 23px auto;
+  text-indent: 2em;
+}
+.aDiv16{
+  width: 30%;
+  margin: 0px auto;
+}
+.inp{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  outline: none;
+  text-indent: 5px;
+  width: 70%;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  .inp{
+    width: 160px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .inp{
+    width: 105px;
+  }
+}
+
+.aDiv17{
+  width: 26%;
+  margin: 57px auto;
+}
+.sub{
+  background-color: #4175dd;
+  border: none;
+  width: 39%;
+  height: 32px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+.sub:hover{
+  background-color: #497fec;
+}
+.sub3{
+  width: 39%;
+  height: 32px;
+  background-color: white;
+  border: 1px solid #9e9e9e;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  float: right;
+}
+.sub3:hover{
+  background-color: #e6e6e6;
+}
+
+
+.footer {
+  margin-top: 182px;
+  background: url(../images/footer.gif) repeat-x;
+}
+.footer_div {
+  height: 100px;
+  text-align: center;
+  padding-top: 23px;
+  color: #2B2B2B;
+  line-height: 22px;
+  background: url(../images/footer1.png) no-repeat;
+}

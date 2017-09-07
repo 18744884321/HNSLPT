@@ -1,0 +1,149 @@
+@charset "utf-8";
+.container{
+	padding: 0;
+}
+.work_img{
+	width: 490px;
+	float: left;
+}
+.top_box .logo{
+	width: 1000px;
+	margin:0 auto;
+}
+.top_nav .container{
+	width: 1000px;
+	margin:0 auto;
+}
+.tap1,.tap2,.tap3,.tap4,.tap5,.tap6{
+	width: 1000px;
+	margin: 20px auto;
+}
+.work_img .img_description{
+	background-color: black;
+	filter: alpha(opacity=50);
+}
+.work_img{
+	float: left;
+}
+.modular{
+	width: 490px;
+	float: right;
+}
+.modular_content a{
+	width: 300px;
+}
+.modular_left{
+	width: 490px;
+	clear:right;
+	float: left;
+}
+.tap3 .banner2{
+	background-color:rgb(0,34,103);
+	filter: alpha(opacity=50);	
+}
+.tap5 ul{
+	margin-left: 25px;
+}
+.tap5 .row1 li{
+	width: 170px;
+	margin:20px 22px 10px 0;
+}
+.tap5 .row2 li{
+	width: 220px;
+	margin:0 22px 10px 0;
+}
+.tap5 .row3 li{
+	width: 220px;
+	margin:0 22px 10px 0;
+}
+.tap5 .row4 li{
+	width: 220px;
+	margin:0 22px 10px 0;
+}
+.tap5 .row5 li{
+	width: 220px;
+	margin:0 22px 10px 0;
+}
+.tap5 a:hover{
+  border:1px solid #ab0009;
+}
+.tap6 .link{
+	padding:10px;
+}
+.tap6 .link ul{
+	margin-left: 10px;
+}
+.tap6 .link li{
+	width: 155px;
+	margin:10px 5px 0px 5px;
+}
+.tap6 .link a:hover{
+	border:1px solid #ab0009;
+}
+
+
+.div_box{
+	width: 1000px;
+}
+.footer{
+	width: 1031px;
+	margin: 0 auto;
+}
+.bDiv242{
+	position: relative;
+	top: -80px;
+	left: 450px;
+}
+.bDiv245{
+	float: left;
+}
+.myD2 input{
+	width: 336px;
+}
+.bDiv243 input,.bDiv244 input{
+	width: 200px;
+}
+.bDiv24{
+	height: 180px;
+}
+.bDiv25{
+	height: 82px;
+}
+.modal-content{
+	width: 550px;
+	margin-left: 30%;
+}
+.inp{
+	width: 68%;
+}
+.ie8_table{
+	margin-top: -34px;
+}
+.footer_jz{
+	margin-top: 404px;
+}
+.footer_mm{
+	margin-top: 207px;
+}
+.footer_ht{
+	margin-top: 266px;
+}
+.footer_dy{
+	margin-top: 256px;
+}
+.myselect {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    text-indent: 5px;
+    outline: none;
+    border: 1px solid #cccccc;
+}
+.myselect2 {
+    width: 335px;
+    height: 35px;
+    border-radius: 5px;
+    text-indent: 5px;
+    outline: none;
+    border: 1px solid #cccccc;
+}

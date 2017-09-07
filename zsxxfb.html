@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- saved from url=(0014)about:internet -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>招生信息发布</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="_files/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="_files/css/zhaoshengxinxifabu.css">
+    <!--[if IE 8]>
+          <link rel="stylesheet" href="_files/css/ie8.css">
+          <script src="_files/js/html5shiv.min.js"></script>
+          <script src="_files/js/respond.min.js"></script>  
+          <![endif]-->
+          
+
+        </head>
+        <body>
+
+          <div class="container div_box">
+            <div class="row">
+              <!-- 后台管理 -->
+              <div class="aDiv1">
+                <div><img src="_files/images/zsjz/u12.png" width="100%"></div>
+                <div class="aDiv11">
+                  <div class="aDiv12">
+                    <p>欢迎登录系统！</p>
+                    <ul>
+                      <li><a href="#">退出</a></li>
+                      <li><a href="xgmm.html" target="_black">修改密码</a></li>
+                      <li>Admin</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- 左侧 -->
+                <div class="bDiv1">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#tab1" role="tab" data-toggle="tab">招生信息发布</a></li>
+                    <li role="presentation"><a href="#tab2" role="tab" data-toggle="tab">招生信息统计</a></li>
+                    <li role="presentation"><a href="#tab3" role="tab" data-toggle="tab">招生专业管理</a></li>
+                    <li role="presentation"><a href="#tab4" role="tab" data-toggle="tab">招生层次管理</a></li>
+                    <li role="presentation"><a href="#tab5" role="tab" data-toggle="tab">学习形式管理</a></li>
+                  </ul>
+                </div>
+
+                <!-- 内容 -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="bDiv2 tab-pane active" id="tab1">
+                    <div class="bDiv21">
+                      <span>标题&#x3000;</span>
+                      <input type="text" id="name">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="bDiv22">
+                      <div>正文</div>
+                      <br>
+                      <div class="bDiv221"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="mybottom">
+                      <input type="submit" id="sub" value="保存" style="height:38px">
+                    </div>
+                  </div>
+
+                  <!-- 内容2 -->
+                  <div role="tabpanel" class="bDiv2 tab-pane" id="tab2">
+                    <div class="bDiv21">
+                      <div class="bDiv23">
+                        <div class="bDiv24">
+                          <div class="bDiv241 col-lg-7 col-md-7">
+                            <div class="myD1">
+                              <span>报名时间： </span><input type="text"><span>&nbsp; 到&nbsp; </span><input type="text">
+                            </div>
+                            <div class="myD2">
+                              <span>报考层次：</span>
+                              <select class="myselect2">
+                                <option>高起专</option>
+                                <option>高起专</option>
+                                <option>高起专</option>
+                            </select>
+                            </div>
+                          </div>
+                          <div class="bDiv242 col-lg-5 col-md-5">
+                            <div class="bDiv243">
+                              <span>学习形式：</span>&nbsp;
+                              <select class="myselect">
+                                <option>函授</option>
+                                <option>函授</option>
+                                <option>函授</option>
+                              </select>
+                            </div>
+                            <div class="bDiv244">
+                              <span>报考专业：</span>&nbsp;
+                              <select class="myselect">
+                                <option>专业1</option>
+                                <option>专业2</option>
+                                <option>专业3</option>
+                              </select>
+                            </div>
+                            <div class="bDiv245">
+                              <input type="button" id="sub" value="查询">
+                              <input type="button" id="sub3" value="导出Excel">
+                            </div>
+                          </div>
+                        </div>
+                        <table class="table table-border table-striped ie8_table">
+                          <thead>
+                            <tr class="tr1">
+                              <th>序号</th>
+                              <th>姓名</th>
+                              <th>层次</th>
+                              <th>学习形式</th>
+                              <th>报考专业</th>
+                              <th>联系电话</th>
+                              <th></th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>6</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                            <tr>
+                              <td>7</td>
+                              <td>张三</td>
+                              <td>高起专</td>
+                              <td>函授</td>
+                              <td>汉语言文学</td>
+                              <td>13800007896</td>
+                              <td class="td1"><a href="javascript:;">查看</a></td>
+                              <td class="td1"><a href="javascript:;">打印</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="myBtn">
+                          <ul class="pagination pagination-md myBtn2">
+                            <li class="ali"><a href="#">首页</a></li>
+                            <li class="ali"><a href="#">< 上一页</a></li>
+                            <li class="ali"><a href="#">下一页 ></a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- 内容3 -->
+                  <div role="tabpanel" class="bDiv2 tab-pane" id="tab3">
+                    <div class="bDiv25">
+                      <div class="bDiv26">
+                        <span>报考层次：</span>
+                              <select class="myselect2">
+                                <option>高起专</option>
+                                <option>高起专</option>
+                                <option>高起专</option>
+                            </select>
+                        &#x3000;&#x3000;<input type="submit" id="sub" value="查询">
+                      </div>
+                      <br>
+                      <div class="bDiv27">
+                        <input type="submit" id="sub" value="新增专业" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" style="padding: 0">
+                        <!-- 模态框 -->
+                        <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">开始演示模态框</button> -->
+                        <!-- 模态框（Modal） -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">新增专业</h4>
+                              </div>
+                              <br>
+                              <div class="modal-body">
+                                <div>
+                                  <span>报考层次：</span>&#x3000;
+                                  <select id="name">
+                                    <option>高起专</option>
+                                    <option>高起专</option>
+                                    <option>高起专</option>
+                                  </select>
+                                  <br><br>
+                                  <span>报考专业：</span>&#x3000;
+                                  <select id="name">
+                                    <option>专业1</option>
+                                    <option>专业2</option>
+                                    <option>专业3</option>
+                                  </select>
+                                </div>
+                                <div></div>
+                              </div>
+                              <br>
+                              <div class="modal-footer">
+                                <input class="btn btn-primary" type="submit" id="sub" value="确定" style="height: 40px">
+                                <input type="submit" id="sub2" class="btn btn-default" data-dismiss="modal" value="取消">
+                              </div>
+                            </div><!-- /.modal-content -->
+                          </div><!-- /.modal -->
+                        </div>
+                      </div><br><br>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr class="tr1">
+                            <th>序号</th>
+                            <th>层次</th>
+                            <th>报考专业</th>
+                            <th>操作</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>高起专</td>
+                            <td>汉语言文学</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td>工商管理</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>高起专</td>
+                            <td>汉语言文学</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>专升本</td>
+                            <td>工商管理</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>5</td>
+                            <td>高起专</td>
+                            <td>汉语言文学</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>6</td>
+                            <td>专升本</td>
+                            <td>工商管理</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>7</td>
+                            <td>高起专</td>
+                            <td>汉语言文学</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="myBtn">
+                        <ul class="pagination pagination-md myBtn2">
+                          <li class="ali"><a href="#">首页</a></li>
+                          <li class="ali"><a href="#">< 上一页</a></li>
+                          <li class="ali"><a href="#">下一页 ></a></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    
+                  </div>
+                  <!-- 内容4 -->
+                  <div role="tabpanel" class="bDiv2 tab-pane" id="tab4">
+                    <div class="bDiv28">
+                      <input type="submit" id="sub" value="新增层次" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h4 class="modal-title" id="myModalLabel">新增层次</h4>
+                            </div>
+                            <br><br>
+                            <div class="modal-body">
+                              <div>
+                                <span>报考层次：</span>&#x3000;
+                                  <select id="name">
+                                    <option>高起专</option>
+                                    <option>高起专</option>
+                                    <option>高起专</option>
+                                  </select>
+                              </div>
+                            </div>
+                            <br><br>
+                            <div class="modal-footer">
+                              <input class="btn btn-primary" type="submit" id="sub" value="确定" style="height: 40px">
+                              <input type="submit" id="sub2" class="btn btn-default" data-dismiss="modal" value="取消">
+                            </div>
+                          </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                      </div>
+                    </div>
+                    <div class="table2">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr class="tr1">
+                            <th>序号</th>
+                            <th>层次</th>
+                            <th>操作</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>高起专</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>专升本</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="myBtn myBtn3">
+                      <ul class="pagination pagination-md myBtn2">
+                        <li class="ali"><a href="#">首页</a></li>
+                        <li class="ali"><a href="#">< 上一页</a></li>
+                        <li class="ali"><a href="#">下一页 ></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- 内容5 -->
+                  <div role="tabpanel" class="bDiv2 tab-pane" id="tab5">
+                    <div class="bDiv28">
+                      <input type="submit" id="sub" value="新增学习形式" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
+                      <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                              <h4 class="modal-title" id="myModalLabel">新增专业</h4>
+                            </div>
+                            <br><br>
+                            <div class="modal-body">
+                              <div>
+                                <span>学习形式：</span>&nbsp;
+                                <select id="name">
+                                  <option>函授</option>
+                                  <option>函授</option>
+                                  <option>函授</option>
+                                </select>
+                              </div>
+                            </div>
+                            <br><br>
+                            <div class="modal-footer">
+                              <input class="btn btn-primary" type="submit" id="sub" value="确定" style="height: 40px">
+                              <input type="submit" id="sub2" class="btn btn-default" data-dismiss="modal" value="取消">
+                            </div>
+                          </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                      </div>
+                    </div>
+                    <div class="table2">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr class="tr1">
+                            <th>序号</th>
+                            <th>学习形式</th>
+                            <th>操作</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>函授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>网授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>函授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>网授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>函授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>网授</td>
+                            <td class="td1"><a href="#">编辑</a> <a href="#">删除</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="myBtn myBtn3">
+                      <ul class="pagination pagination-md myBtn2">
+                        <li class="ali"><a href="#">首页</a></li>
+                        <li class="ali"><a href="#">< 上一页</a></li>
+                        <li class="ali"><a href="#">下一页 ></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- footer -->
+          <div class="container">
+            <div class="row">
+              <div class="footer">
+                <div class="footer_div">
+                  <p class="pa"><span>河南水利与环境职业学院</span> <span>豫ICP备05018154号</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      
+      <script src="_files/js/jquery-2.1.0.js"></script>
+      <script src="_files/js/bootstrap.js"></script>
+    </body>
+    </html>

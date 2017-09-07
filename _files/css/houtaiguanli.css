@@ -1,0 +1,62 @@
+/*后台管理*/
+*{
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.aDiv11{
+  margin-top: 50px;
+}
+.aDiv11 p{
+  line-height: 42px;
+  background-color: white;
+  text-align: center;
+}
+.aDiv12{
+  text-align: center;
+  margin-top: 50px;
+}
+#name,#pass{
+  width: 245px;
+  height: 40px;
+  text-indent: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  outline: none;
+}
+#sub{
+  background-color: #4175dd;
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  margin-left: 48px;
+  font-size: 16px;
+}
+
+label{
+  font-weight: normal;
+}
+
+
+.container{
+  /*width: 80%;*/
+}
+.container2{
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.footer {
+  margin-top: 242px;
+  background: url(../images/footer.gif) repeat-x;
+}
+.footer_div {
+  height: 100px;
+  text-align: center;
+  padding-top: 23px;
+  color: #2B2B2B;
+  line-height: 22px;
+  background: url(../images/footer1.png) no-repeat;
+}
